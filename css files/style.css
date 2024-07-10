@@ -166,14 +166,61 @@ nav ul .btn-navbar{
 
 /* --------------------    Need support section start     --------------------- */
 
-
+.need-bg-img{
+    background-color: rgb(0, 0, 0, 0.5);
+    background-image: url(../assets/images/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    border-radius: 16px;
+    height: 250px;
+}
 
 
 /* --------------------    Need support section end     --------------------- */
 
 
 
+/* -----------------  submitting form style start  ---------------------- */
 
+form{
+    padding-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+    text-align: left;
+}
+
+form input[type="text"] {
+    border: 0;
+    padding: 12px 16px;
+    width: calc(100% - 68px);
+  }
+
+  form input[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 30px;
+    background: red;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 0px 50px 50px 0px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+
+
+
+/* -----------------  submitting form style end  ---------------------- */
 
 /* shared style start */
 

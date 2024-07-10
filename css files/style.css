@@ -41,6 +41,7 @@ nav li a{
 
 nav ul .btn-navbar{
     padding: 8px 20px;
+    
 }
 
 
@@ -257,8 +258,12 @@ form input[type="submit"]{
 
 /* -----------------------------   footer section style start    ------------------------------ */
 
+.footer-padding{
+    padding: 50px 0px 0px;
+}
+
 .footer-col{
-    background-color: #0c0c0c2f;
+    background-color: #0c0c0c11;
     border-radius: 12px;
 }
 
@@ -301,7 +306,8 @@ form input[type="submit"]{
     color: white;
     font-size: 17px;
     font-weight: 600;
-    font-family: ;
+    font-family: Azeret Mono;
+    cursor: pointer;
 
 }
 

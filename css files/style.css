@@ -271,24 +271,25 @@ form input[type="submit"]{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 15px 0px;
 }
-.footer-text p{
-    padding: 15px 0px 0px 10px;
-
+.footer-text h3{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
+    text-align: center;
+    padding: 14px 0px 0px 10px;
 }
 
 .footer-social-link{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    
 }
 
 .footer-social-link a{
     padding: 10px;
-    /* margin-top: -13px; */
+    
 }
 
 

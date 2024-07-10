@@ -120,6 +120,52 @@ nav ul .btn-navbar{
 
 
 
+
+/* Inspiration section start  */
+
+.row-inspiration{
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.096);
+}
+.row-inspiration-box{
+    padding: 20px 16px;
+    border-radius: 8px;
+}
+.row-inspiration-box iframe{
+    border-radius: 8px;
+}
+
+/* Inspiration section end  */
+
+
+
+/* --------------- My Current Target start ----------------- */
+
+.row-my-target{
+    display: flex;
+}
+
+.col-my-target{
+    padding: 15px;
+}
+.col-my-target > .col-my-target-box{
+    padding: 35px 20px;
+    border-radius: 16px;
+}
+
+.col-my-target > .col-my-target-box img, h3, p{
+    margin-bottom: 20px;
+}
+
+
+
+/* --------------- My Current Target end ----------------- */
+
+
+
+
+
+
 /* shared style start */
 
 .btn-primary{
@@ -140,6 +186,7 @@ nav ul .btn-navbar{
     line-height: 25px;
     letter-spacing: 1px;
     margin-bottom: 35px;
+    color: rgba(0, 0, 0, 0.521);
 }
 
 .padding{
